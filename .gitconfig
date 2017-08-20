@@ -22,7 +22,8 @@
 	dc = diff --cached
 	fp = format-patch
 	g = !git gui &
-	gr = log --graph
+	graph = log --graph --oneline --decorate --all
+	gr =  log --graph --oneline --decorate --all
 	go = log --graph --pretty=oneline --abbrev-commit
 	k = !gitk &
 	ka = !gitk --all &

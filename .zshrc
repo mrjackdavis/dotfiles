@@ -101,14 +101,6 @@ sourcetree(){
   open $1 -a"sourcetree"
 }
 
-gitgraph(){
-  git log --graph --oneline --decorate --all
-}
-
-gitRebaseMaster(){
-  git checkout master && git fetch && git pull && git checkout @{-1} && git rebase master
-}
-
 mktouch() {
   if [ $# -lt 1 ]; then
     echo "Missing argument";
