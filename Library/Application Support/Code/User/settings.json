@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "javascript.validate.enable": false,
+    "flow.useNPMPackagedFlow": true
+}
