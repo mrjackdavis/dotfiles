@@ -1,6 +1,8 @@
 [core]
 	excludesfile = /Users/JackDavis/.gitignore_global
 	editor = /usr/bin/vim
+[credential]
+	helper = osxkeychain
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -41,3 +43,4 @@
 	stm = status --untracked=no
 	stfu = status --untracked=no
 	pullsrb = !git stash save && git pull --rebase && git stash pop && echo 'Success!'
+
