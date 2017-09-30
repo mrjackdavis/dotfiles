@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Setup dotfile management
-git clone --bare https://github.com/mrjackdavis/dotfiles.git $HOME/.cfg
+git clone --bare git@github.com:mrjackdavis/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
