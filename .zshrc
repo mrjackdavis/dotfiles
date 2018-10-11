@@ -127,3 +127,12 @@ export TERM=screen-256color
 
 # Setup config file tracking
 alias config='/usr/bin/git --git-dir=/Users/JackDavis/.cfg/ --work-tree=/Users/JackDavis'
+
+
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+
+# GoStuff
+export GOPATH="$HOME/projects/go"
+export PATH="$PATH:$GOPATH/bin"
+export GO111MODULE="on"
