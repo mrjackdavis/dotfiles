@@ -136,3 +136,5 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH="$HOME/projects/go"
 export PATH="$PATH:$GOPATH/bin"
 export GO111MODULE="on"
+
+eval $(thefuck --alias)
