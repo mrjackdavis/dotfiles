@@ -45,3 +45,4 @@
 	stfu = status --untracked=no
 	pullsrb = !git stash save && git pull --rebase && git stash pop && echo 'Success!'
 	review = "!f() { git fetch && git checkout origin/$1 ; }; f"
+	housekeeping = !git branch --merged | grep -v \\* | grep -v master | grep -v dev | xargs -n 1 git branch -d

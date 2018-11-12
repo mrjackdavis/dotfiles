@@ -93,10 +93,6 @@ awsKeyPair(){
   echo "~/Google\ Drive/Trioxis/AWS/Key\ Pairs/$1"
 }
 
-gitRmMerged(){
-  git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d
-}
-
 sourcetree(){
   open $1 -a"sourcetree"
 }
