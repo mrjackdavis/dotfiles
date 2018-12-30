@@ -16,5 +16,6 @@
     "variable-declarations": 0,
     "indentation": ["error", 2],
     "quotes": ["error", "double"]
-  }
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true
 }
